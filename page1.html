@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Novo Decreto</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+      color: #fff;
+      min-height: 100vh;
+      background-color: #222;
+      background-image: url('coliseupb.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .top-bar {
+      background: #f72825;
+      color: white;
+      text-align: center;
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+
+    .header-center {
+      padding: 0;
+    }
+
+    .icon-line {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      margin-bottom: 2px;
+    }
+
+    .icon-line .line {
+      width: 40px;
+      height: 2px;
+      background-color: white;
+    }
+
+    .icon-line .icon {
+      width: 200px;
+      height: 150px;
+      margin: 0;
+      display: block;
+    }
+
+    .header-center h1 {
+      margin: 0;
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    .main-menu {
+      background-color: #1e1e1e;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 15px 0;
+    }
+
+    .main-menu a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .main-menu a:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+      background-color: rgba(0,0,0,0.6);
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .content h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    .content p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-top: 30px;
+    }
+
+    .video-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .video-container iframe {
+      flex: 1 1 45%;
+      max-width: 45%;
+      height: 300px;
+      border: none;
+      border-radius: 8px;
+    }
+
+    .btn-avancar {
+      display: inline-block;
+      background-color: #f72825;
+      color: white;
+      padding: 12px 24px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background-color 0.3s;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    .btn-avancar:hover {
+      background-color: #d31c1c;
+    }
+  </style>
+</head>
+<body>
+  <header class="top-bar">
+    <div class="header-center">
+      <div class="icon-line">
+        <span class="line"></span>
+        <img src="logo.png" alt="Ícone" class="icon" />
+        <span class="line"></span>
+      </div>
+      <h1>CITTADINANZA</h1>
+    </div>
+    <nav class="main-menu">
+      <a href="index.html">CIDADANIA ITALIANA</a>
+      <a href="page2.html">NOVO DECRETO</a>
+      <a href="page3.html">IMAGEM</a>
+    </nav>
+  </header>
+
+  <div class="content">
+    <h2>Novo Decreto</h2>
+    
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/oUbDHVvXu0g" title="Mudanças na Cidadania Italiana" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/3OvYdeQfYhI" title="Novo Decreto CNN" allowfullscreen></iframe>
+    </div>
+
+    <p>
+      <strong>Limitação Geracional:</strong> A cidadania italiana por descendência será reconhecida apenas para filhos e netos de italianos nascidos na Itália. Descendentes de bisavós italianos ou gerações mais distantes não poderão mais solicitar a cidadania.<br><br>
+      <strong>Vínculo Real com a Itália:</strong> Será exigido que os cidadãos nascidos e residentes no exterior mantenham vínculos reais com a Itália, exercendo os direitos e deveres de cidadão pelo menos uma vez a cada 25 anos.<br><br>
+      <strong>Centralização dos Processos:</strong> A partir de 2026, os pedidos de reconhecimento da cidadania italiana serão processados diretamente pelo Ministério das Relações Exteriores em Roma, centralizando as decisões que antes eram tomadas pelos consulados e comuni.
+    </p>
+
+    <a href="page2.html" class="btn-avancar">Avançar</a>
+  </div>
+</body>
+</html>

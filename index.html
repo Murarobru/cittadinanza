@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cittadinanza</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+      color: #fff;
+      min-height: 100vh;
+      background-color: #222;
+      background-image: url('coliseupb.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .top-bar {
+      background: #f72825;
+      color: white;
+      text-align: center;
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+
+    .header-center {
+      padding: 0;
+    }
+
+    .icon-line {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      margin-bottom: 2px;
+    }
+
+    .icon-line .line {
+      width: 40px;
+      height: 2px;
+      background-color: white;
+    }
+
+    .icon-line .icon {
+      width: 200px;
+      height: 150px;
+      margin: 0;
+      display: block;
+    }
+
+    .header-center h1 {
+      margin: 0;
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    .main-menu {
+      background-color: #1e1e1e;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 15px 0;
+    }
+
+    .main-menu a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .main-menu a:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      padding: 40px;
+      max-width: 800px;
+      margin: auto;
+      background-color: rgba(0,0,0,0.6);
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .content h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    .content p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+    }
+
+    .video-container iframe {
+      width: 100%;
+      max-width: 700px;
+      height: 400px;
+      border: none;
+      border-radius: 8px;
+    }
+
+    .btn-avancar {
+      display: inline-block;
+      background-color: #f72825;
+      color: white;
+      padding: 12px 24px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background-color 0.3s;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .btn-avancar:hover {
+      background-color: #d31c1c;
+    }
+  </style>
+</head>
+<body>
+  <header class="top-bar">
+    <div class="header-center">
+      <div class="icon-line">
+        <span class="line"></span>
+        <img src="logo.png" alt="Ícone" class="icon" />
+        <span class="line"></span>
+      </div>
+      <h1>CITTADINANZA</h1>
+    </div>
+    <nav class="main-menu">
+      <a href="index.html">CIDADANIA ITALIANA</a>
+      <a href="page1.html">NOVO DECRETO</a>
+      <a href="page2.html">IMAGEM</a>
+    </nav>
+  </header>
+
+  <div class="content">
+    <h2>Cidadania Italiana</h2>
+    <p>
+      O reconhecimento da cidadania italiana é um direito garantido pela lei italiana, que permite aos descendentes de italianos requererem a nacionalidade, mesmo que tenham nascido fora da Itália. Estima-se que mais de 25 milhões de pessoas no mundo sejam elegíveis para obter a cidadania italiana por meio de descendência (jus sanguinis).  
+      Esse reconhecimento abre portas para viver, trabalhar e estudar em qualquer país da União Europeia, além de possibilitar o acesso a benefícios sociais e políticos na Itália. O processo exige a comprovação documental da linhagem italiana, que pode incluir certidões de nascimento, casamento e óbito, entre outros documentos oficiais.
+    </p>
+
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/DXeEIw1zpYk" title="Como saber se tenho o direito?" allowfullscreen></iframe>
+    </div>
+
+    <a href="page1.html" class="btn-avancar">Avançar</a>
+  </div>
+</body>
+</html>
